@@ -1,0 +1,31 @@
+.divContainer {
+    width: 100%;
+    height: 100vh;
+    
+    background-size: cover;
+   display: absolute;
+}
+
+.load {
+  
+  text-align: center;
+  image-resolution: 10%;
+  margin: 0px ;
+  padding: 0px;
+  
+  place-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.974), rgba(0, 0, 1, 0.934));
+     
+}
+
+.img {
+  height: 10%;
+  display: absolute;
+  align-items: center;
+  place-items: center;
+  padding: 230px 0px 200px 5px;
+  margin: 230px 0px 200px 5px;
+  place-items: center;
+  
+    
+}

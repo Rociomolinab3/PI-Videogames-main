@@ -1,0 +1,49 @@
+.wrapper {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    
+   }
+   .glow {
+    color: rgb(62, 87, 174);
+    text-shadow: rgb(137, 119, 155) 0 0 10px;
+   }
+
+   .boxImage{ 
+     height: 250px;
+     width: 300px;
+     margin: 20px ;
+     padding: 10px;
+     background: linear-gradient(rgba(141, 144, 198, 0.897), rgba(66, 122, 178, 0.726)),
+     
+     center no-repeat;
+     image-resolution: 100%;
+     border-radius: 10px;
+     outline: none;
+   }
+   
+   .boxDescription{
+    height: auto;
+     width: auto;
+     margin: 20px ;
+     padding: 20px;
+     background: linear-gradient(rgba(96, 96, 112, 0.897), rgba(32, 15, 70, 0.726)),
+
+     center no-repeat;
+     image-resolution: 100%;
+     border-radius: 10px;
+     outline: none;
+   }
+   
+   .boxDetail{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(172, 156, 167);
+    text-decoration:none;
+ }
