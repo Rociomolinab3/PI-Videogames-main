@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { getVideogamesName } from '../../actions';
 
 export default function SearchBar (){
@@ -29,6 +29,4 @@ export default function SearchBar (){
         <button type='sumbit' onClick={(e)=>handlerSubmit(e)}>Buscar</button>
         </div>
     )
-
-
 }

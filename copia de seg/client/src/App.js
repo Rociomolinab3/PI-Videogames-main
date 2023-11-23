@@ -4,7 +4,7 @@ import LandingPage from './components/LandingPage/LandingPage';
 import Home from './components/Home/Home';
 import GameCreate from './components/GameCreate/GameCreate';
 import Detail from './components/Detail/Detail';
-import Loading from './components/Loading/Loading';
+// import Loading from './components/Loading/Loading';
 
 function App() {
   return (

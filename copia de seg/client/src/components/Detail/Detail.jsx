@@ -8,7 +8,6 @@ import style from '../Detail/Detail.module.css';
 export default function Detail(props){
     
     const dispatch = useDispatch();
-    
 
     useEffect(()=>{
         dispatch(getDetail(props.match.params.id));

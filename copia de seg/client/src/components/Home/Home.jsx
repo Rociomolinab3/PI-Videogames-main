@@ -14,8 +14,8 @@ import Loading from '../Loading/Loading';
 export default function Home (){
     
 
-    const dispatch =useDispatch();
-    const allVideogames=useSelector((state) => state.videogames);
+    const dispatch = useDispatch();
+    const allVideogames = useSelector((state) => state.videogames);
     const allGenres = useSelector ((state)=>state.genres);
     const [loading, setLoading] = useState(true);
     const [ currentPage, setCurrentPage ] = useState(1);
